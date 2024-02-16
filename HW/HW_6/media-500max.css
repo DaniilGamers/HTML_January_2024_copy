@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px){
+
+    p::after{
+        content: "mobile"
+    }
+
+    header, section{
+        height: 15vh;
+        width: 100vw;
+    }
+
+    div{
+        flex-direction: column;
+    }
+    main{
+        width: 100vw;
+    }
+
+}
