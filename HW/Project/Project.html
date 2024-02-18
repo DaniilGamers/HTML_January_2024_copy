@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project for the html lesson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    html{
+
+        scroll-behavior: smooth;
+
+    }
+
+    .logo{
+
+        content: url("aa8cb7873c9b8d6294e697a5db1a664b.png");
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .text_logo{
+
+        font-size: 200%;
+        color: white;
+        padding-left: 5px;
+        margin-right: 300px;
+
+    }
+
+    .text_option{
+
+        font-size: 90%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 40px;
+        transition: 115ms;
+
+    }
+
+    .text_option2{
+
+        font-size: 90%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 40px;
+        transition: 115ms;
+
+    }
+
+    .text_option3{
+
+        font-size: 90%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 40px;
+        transition: 115ms;
+
+    }
+
+    .text_option4{
+
+        font-size: 90%;
+        color: white;
+        margin-top: 20px;
+        margin-left: 40px;
+        transition: 115ms;
+
+    }
+
+    .Button-contact{
+
+        width: 157px;
+        height: 44px;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 250px;
+        transition: 115ms;
+
+    }
+
+    .text_option:hover{
+
+        color: #5454D4;
+        transition: 115ms;
+
+    }
+
+    .text_option2:hover{
+
+        color: #5454D4;
+        transition: 115ms;
+
+    }
+
+    .text_option3:hover{
+
+        color: #5454D4;
+        transition: 115ms;
+
+    }
+
+    .text_option4:hover{
+
+        color: #5454D4;
+        transition: 115ms;
+
+    }
+
+
+
+    .text_contact{
+
+        font-size: 90%;
+        color: white;
+
+    }
+
+
+
+    .text_Build{
+
+        font-size: 80px;
+        color: white;
+        text-align: left;
+        padding-left: 120px;
+        margin-top: 100px;
+
+    }
+
+    .text_Build_info{
+
+        font-size: 17px;
+        color: #9a9a9a;
+        text-align: left;
+        padding-left: 120px;
+        margin-top: -50px;
+        letter-spacing: 1px;
+        line-height: 39px;
+
+    }
+
+    .main_picture{
+
+        content: url("4575493d2bebef7ee94cebb811d6d0be.png");
+        position: absolute;
+        width: 680px;
+        padding-left: 732px;
+
+    }
+
+    .Button_Our_services{
+
+        width: 204px;
+        height: 58px;
+        border-radius: 4px;
+        background-color: #5454D4;
+        margin: 33px 123px;
+        transition: 115ms;
+        content: "Our services";
+
+
+    }
+
+    .Button_Our_services:hover{
+
+        background-color: white;
+
+    }
+
+    .text_Button_services{
+
+        font-size: 20px;
+        color: #ffffff;
+        text-align: left;
+        padding-left: 27px;
+        margin-top: 16px;
+
+    }
+
+    .text_rights{
+
+        font-size: 80%;
+        color: white;
+        margin-top: 20px;
+        padding-left: 550px;
+
+    }
+
+    .services_picture{
+
+        content: url("ba4d811ef0e03a77959e60d62a5dc155.png");
+        width: 1200px;
+        padding-left: 115px;
+        padding-top: 70px;
+
+    }
+
+    .text_services{
+
+        font-size: 60px;
+        color: white;
+        text-align: left;
+        padding-left: 120px;
+
+
+    }
+
+    .text_services_info{
+
+        font-size: 17px;
+        color: #9a9a9a;
+        text-align: left;
+        margin-left: 730px;
+        margin-top: -150px;
+        letter-spacing: 1px;
+        line-height: 29px;
+
+    }
+
+    a{
+
+        text-decoration: none;
+
+    }
+
+    .text_provides{
+
+        font-size: 70px;
+        color: white;
+        text-align: center;
+    }
+
+    .box_provides{
+
+        width: 1340px;
+        height: 840px;
+        margin-left: 45px;
+
+    }
+
+    .box_provides_1st_line{
+
+        width: 1340px;
+        height: 420px;
+
+        display: flex;
+
+        justify-content: space-between;
+
+    }
+    .box_provides_2nd_line{
+
+        width: 1340px;
+        height: 420px;
+        display: flex;
+
+        justify-content: space-between;
+
+
+    }
+
+    .box_provides_1st_line_1{
+
+        width: 400px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box_provides_1st_line_2{
+
+        width: 400px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box_provides_1st_line_3{
+
+        width: 400px;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .oval_blue{
+
+        background-color: #5454D419;
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .oval_red{
+
+        background-color: #F0403719;
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .oval_yellow{
+
+        background-color: #FEDC5A19;
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .oval_icon1_1{
+
+        content: url("code.png");
+        width: 36px;
+
+    }
+
+    .oval_icon1_2{
+
+        content: url("layer.png");
+        width: 36px;
+
+    }
+
+    .oval_icon1_3{
+
+        content: url("code2.png");
+        width: 36px;
+
+    }
+
+    .oval_icon2_1{
+
+        content: url("align-vertically.png");
+        width: 36px;
+
+    }
+
+    .oval_icon2_2{
+
+        content: url("camera.png");
+        width: 36px;
+
+    }
+
+    .oval_icon2_3{
+
+        content: url("video-play.png");
+        width: 36px;
+
+    }
+
+    .text_section{
+
+        font-size: 60px;
+        color: white;
+        text-align: left;
+
+
+    }
+
+    .box_section{
+        width: 1440px;
+        height: 524px;
+        background-color: #1E1E20;
+        opacity: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Button-contact_section{
+
+        width: 201px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 170px;
+        background-color: #5454D4;
+        border-radius: 8px;
+
+    }
+
+    .text_contact_section{
+
+        font-size: 130%;
+        color: white;
+
+    }
+
+    .text_development{
+
+        font-size: 30px;
+
+        color: white;
+
+    }
+
+    .text_development_info{
+
+        font-size: 22px;
+
+        color: #969696;
+
+        text-align: center;
+
+    }
+
+    .box_about_us{
+
+        width: 1180px;
+        height: 300px;
+        margin-top: 150px;
+        margin-left: 125px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .box_about_us_box1{
+
+        width: 380px;
+        height: 300px;
+        background-color: #1E1E20;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box_about_us_box2{
+
+        width: 380px;
+        height: 300px;
+        background-color: #1E1E20;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box_about_us_box3{
+
+        width: 380px;
+        height: 300px;
+        background-color: #1E1E20;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .box_about_us_pic1{
+
+        content: url("5138a85285479f3d4bfbea8425a211fd.png");
+        
+        width: 340px;
+
+        border-radius: 10px;
+
+    }
+    .box_about_us_pic2{
+
+        content: url("2dc7aff89630532e4ca5d8d2ad2215c9.png");
+
+        width: 340px;
+
+        border-radius: 10px;
+
+    }
+
+    .box_about_us_pic3{
+
+        content: url("248b97ab71518dee7f8b39cd2ef4e08f.png");
+
+        width: 340px;
+
+        border-radius: 10px;
+
+    }
+
+</style>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+    </div>
+
+    <p class="text_logo"><span class="roboto-regular"><b>Enver</b></span></p>
+
+    <a href="#box1">
+
+    <p class="text_option"><span class="roboto-regular">Home</span></p>
+
+    </a>
+
+    <a href="#box2">
+
+    <p class="text_option2"><span class="roboto-regular">Services</span></p>
+
+    </a>
+
+    <a href="#box3">
+
+    <p class="text_option3"><span class="roboto-regular">Our Project</span></p>
+
+    </a>
+
+
+    <a href="#box4">
+
+    <p class="text_option4"><span class="roboto-regular">About us</span></p>
+
+    </a>
+
+    <div class="Button-contact">
+
+        <p class="text_contact"><span class="roboto-regular">Contact us</span></p>
+
+    </div>
+
+</header>
+
+<div id="box1">
+
+    <p class="text_Build"><span class="roboto-regular">Build Your <br>Awesome <br>Platform</span></p>
+    <p class="text_Build_info"><span class="roboto-regular">Enver studio is a digital studio that offers several services such <br>as UI/UX Design to developers, we will provide the best <br>service for those of you who use our services.</span></p>
+    <div class="main_picture"></div>
+
+    <div class="Button_Our_services">
+
+        <p class="text_Button_services"><span class="roboto-regular">Our services</span></p>
+
+    </div>
+
+</div>
+
+<div id="box2">
+
+    <p class="text_services"><span class="roboto-regular">Why Enver Is The <br>Best Choice</span></p>
+    <p class="text_services_info"><span class="roboto-regular">Watch this one minute video so you understand why you should use <br>our services!</span></p>
+    <div class="services_picture"></div>
+
+</div>
+
+<div id="box3">
+
+    <p class="text_provides"><span class="roboto-regular">The Service We Provide <br>For You</span></p>
+
+    <div class="box_provides">
+
+        <div class="box_provides_1st_line">
+
+            <div class="box_provides_1st_line_1">
+
+                <div class="oval_blue">
+
+                    <div class="oval_icon1_1"></div>
+
+                </div>
+
+                <p class="text_development" style="margin-top: 40px"><span class="roboto-regular">Development</span></p>
+
+                <p class="text_development_info" style="margin-top: 0"><span class="roboto-regular">Create a platform with the best and coolest quality from us.</span></p>
+
+            </div>
+
+            <div class="box_provides_1st_line_2">
+
+                <div class="oval_red">
+
+                    <div class="oval_icon1_2"></div>
+
+                </div>
+
+                <p class="text_development" style="margin-top: 40px"><span class="roboto-regular">UI/UX Designer</span></p>
+
+                <p class="text_development_info" style="margin-top: 0"><span class="roboto-regular">We provide UI/UX Design services, and of course with the best quality.</span></p>
+
+            </div>
+
+            <div class="box_provides_1st_line_3">
+
+                <div class="oval_yellow">
+
+                    <div class="oval_icon1_3"></div>
+
+                </div>
+
+                <p class="text_development" style="margin-top: 40px"><span class="roboto-regular">Graphic Designer</span></p>
+
+                <p class="text_development_info" style="margin-top: 0"><span class="roboto-regular">We provide Graphic Design services, with the best designers</span></p>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="box_provides_2nd_line">
+
+
+            <div class="box_provides_1st_line_1">
+
+                <div class="oval_yellow">
+
+                    <div class="oval_icon2_1"></div>
+
+                </div>
+
+                <p class="text_development" style="margin-top: 40px"><span class="roboto-regular">Motion Graphic</span></p>
+
+                <p class="text_development_info" style="margin-top: 0"><span class="roboto-regular">Create a platform with the best and coolest quality from us.</span></p>
+
+            </div>
+
+            <div class="box_provides_1st_line_2">
+
+                <div class="oval_blue">
+
+                    <div class="oval_icon2_2"></div>
+
+                </div>
+
+                <p class="text_development" style="margin-top: 40px"><span class="roboto-regular">Photography</span></p>
+
+                <p class="text_development_info" style="margin-top: 0"><span class="roboto-regular">We provide Photography services, and of course with the best quality.</span></p>
+
+            </div>
+
+            <div class="box_provides_1st_line_3">
+
+                <div class="oval_red">
+
+                    <div class="oval_icon2_3"></div>
+
+                </div>
+
+                <p class="text_development" style="margin-top: 40px"><span class="roboto-regular">Videography</span></p>
+
+                <p class="text_development_info" style="margin-top: 0"><span class="roboto-regular">Create a platform with the best and coolest quality from us.</span></p>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+<div id="box4">
+
+    <p class="text_services"><span class="roboto-regular">Our Awesome Portfolio</span></p>
+
+    <div class="box_about_us">
+
+        <div class="box_about_us_box1">
+
+            <div class="box_about_us_pic1"></div>
+
+        </div>
+
+        <div class="box_about_us_box2">
+
+            <div class="box_about_us_pic2"></div>
+
+        </div>
+
+        <div class="box_about_us_box3">
+
+            <div class="box_about_us_pic3"></div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<section>
+
+    <div class="box_section">
+
+        <p class="text_section"><span class="roboto-regular">Contact us for the service you <br>want to use</span></p>
+
+        <div class="Button-contact_section">
+
+            <p class="text_contact_section"><span class="roboto-regular">Contact us</span></p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="logo" style="margin-top: -35px">
+
+    </div>
+
+    <p class="text_logo" style="margin-top: 0"><span class="roboto-regular"><b>Enver</b></span></p>
+
+    <p class="text_rights" style="margin-top: 0"><span class="roboto-regular">© 2024 Enver, All Rights Reserved</span></p>
+
+
+
+</footer>
+
+</body>
+</html>
